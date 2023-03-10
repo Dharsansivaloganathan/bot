@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Hi Im "
+    let firstMessage = "Hey hii"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
     // let secondMessage = "Are you came here to place a replace request or a refund request ?"
     // document.getElementById("botStarterMessage").innerHTML = '<p class="botiiText"><span>' + secondMessage + '</span></p>';
@@ -47,7 +47,7 @@ function firstBotMessage() {
 // secondmessage
 function secondBotMessage() {
    
-    let secondMessage = "Are you came here to place a replace request or a refund request ?"
+    let secondMessage = "want to replace request or a refund request ?"
     document.getElementById("botSecondMessage").innerHTML = '<p class="botiiText"><span>' + secondMessage + '</span></p>';
     
 }
@@ -122,5 +122,5 @@ $("#textInput").keypress(function (e) {
 });
 
 function Redirect() {
-    location.href="https://subashbalasubramaniamm.github.io/redirect/";
+    location.href="https://subashbalasubramaniamm.github.io/chatbot/";
  }       
